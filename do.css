@@ -1,0 +1,25 @@
+* {
+	position: relative;
+	/* width: 700px; */
+	/* overflow: hidden; */
+	position: static;
+}
+
+.parent {
+	border: 2px solid black;
+	height: 400px;
+	width: 400px;
+	/* position: relative; */
+	/* overflow: hidden; */
+	position: static;
+}
+
+.child {
+	border: 2px solid rgb(255, 8, 8);
+	height: 100px;
+	width: 100px;
+	position: fixed;
+	/* left: 0; */
+	right: -20px;
+
+}
